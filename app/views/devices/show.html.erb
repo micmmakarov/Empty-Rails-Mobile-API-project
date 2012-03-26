@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @device.name %>
+</p>
+
+<p>
+  <b>Phonegap:</b>
+  <%= @device.phonegap %>
+</p>
+
+<p>
+  <b>Platform:</b>
+  <%= @device.platform %>
+</p>
+
+<p>
+  <b>Uuid:</b>
+  <%= @device.uuid %>
+</p>
+
+<p>
+  <b>Version:</b>
+  <%= @device.version %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @device.user %>
+</p>
+
+
+<%= link_to 'Edit', edit_device_path(@device) %> |
+<%= link_to 'Back', devices_path %>

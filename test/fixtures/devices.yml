@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  phonegap: MyString
+  platform: MyString
+  uuid: MyString
+  version: MyString
+  user: 
+
+two:
+  name: MyString
+  phonegap: MyString
+  platform: MyString
+  uuid: MyString
+  version: MyString
+  user: 
