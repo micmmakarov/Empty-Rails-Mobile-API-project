@@ -32,6 +32,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 group :production do
   gem 'pg'
+  gem 'execjs'
 end
 
 group :test do
