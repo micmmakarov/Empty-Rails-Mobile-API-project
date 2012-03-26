@@ -8,6 +8,7 @@ group :development do
 gem 'sqlite3'
 end
 gem 'devise'
+gem 'heroku'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -33,6 +34,7 @@ gem 'jquery-rails'
 group :production do
   gem 'pg'
   gem 'execjs'
+  gem 'therubyracer'
 end
 
 group :test do
